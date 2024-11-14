@@ -28,11 +28,66 @@ h1 {
 .one {
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 40px 100px 0 100px;
+
 }
 
 .two {
     display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    padding:100px;
+}
+
+.image {
+    height: auto;
+    width:50%;
+    border-radius: 12px;
+}
+
+
+.links {
+    display:flex;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 34px;
+    color:#F9FAF8;
+    font-style: italic;
+    cursor:pointer;
+}
+
+a, .subtext {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7Eb;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size:18px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+button:hover {
+    background-color: white;
+    color:black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
 
 
