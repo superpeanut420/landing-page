@@ -102,6 +102,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding:50px;
 }
 
 .info .border {
@@ -143,3 +144,67 @@ button:hover {
     text-align: center;
 }
 
+
+/*Quote*/
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7Eb;
+    padding:100px;
+}
+
+.quote h3 {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin:0;
+    padding: 50px 50px 10px 50px;
+    width:50%;
+}
+
+.quote p {
+    font-size: 24px;
+    padding:0;
+    margin:0;
+    align-self: flex-end;
+    width:50%;
+    font-weight: 900;
+}
+
+/*signup*/
+
+.signup {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color:white;
+    margin:100px;
+    padding:50px;
+    border-radius: 12px;
+    
+}
+
+.signup h2 {
+    margin-bottom: 0;
+}
+
+.signup p {
+    margin-top: 0;
+}
+
+.signup button {
+    border: 2px solid white
+}
+
+/*footer*/
+
+.footer {
+    color:white;
+    padding:20px;
+    text-align: center;
+}
