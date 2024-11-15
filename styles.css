@@ -139,3 +139,7 @@ button:hover {
     font-weight: 900;
 }
 
+.info p {
+    text-align: center;
+}
+
